@@ -81,6 +81,16 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
               </Link>
             </Menu.Item>
           )}
+          {tokenReports.modulos.some(x => x === 'Reporte_agrupado_laboratorio' ) && (
+            <Menu.Item key="reportes/agrupado-por-laboratorio">
+              <Link to="/reportes/agrupado-por-laboratorio">
+                <i className="icon">
+                  <TbReportAnalytics />
+                </i>
+                <span>Reporte agrupado por laboratorio</span>
+              </Link>
+            </Menu.Item>
+          )}
 				</>
 			);
 		}

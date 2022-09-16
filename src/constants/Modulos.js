@@ -65,4 +65,12 @@ export const Modulos = [
       },
     ],
   },
+  {
+    key: "6",
+    modulo: "Reporte_agrupado_laboratorio",
+    ruta: "agrupado-por-laboratorio",
+    descripcion: "Reporte agrupado por laboratorio",
+    icono: "icon-hotel-booking",
+    subMenu: false,
+  }
 ];
