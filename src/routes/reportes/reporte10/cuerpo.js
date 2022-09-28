@@ -75,7 +75,7 @@ const Cuerpo = () => {
       console.log('Dates: ', dates);
       console.log('Specialities: ', specialities);
 
-      const response = await httpClientBuenaventuraReports.post('/v1/reportes/especialidades/otras-especialidades', {
+      const response = await httpClientBuenaventuraReports.post('/v1/reportes/especialidades', {
         fechas: dates,
         especialidades: specialities
       });

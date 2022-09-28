@@ -77,7 +77,7 @@ export const Modulos = [
     key: "10",
     modulo: "Reporte_10",
     ruta: "reporte10",
-    descripcion: "Reporte de otras especialidades",
+    descripcion: "Reporte de especialidades",
     icono: "icon-hotel-booking",
     subMenu: false,
   },
