@@ -1,8 +1,8 @@
-import { Card } from 'antd';
 import React from 'react';
 import Cuerpo from './cuerpo';
+import { Card } from 'antd';
 
-const ReporteAgrupadoPorLaboratorio = () => {
+const Reporte10 = () => {
   return (
     <Card
       title={
@@ -23,7 +23,7 @@ const ReporteAgrupadoPorLaboratorio = () => {
               paddingTop: '20px'
             }}
           >
-            Reporte agrupado por laboratorios
+            Reporte de especialidades
           </div>
           <div
             style={{
@@ -42,4 +42,4 @@ const ReporteAgrupadoPorLaboratorio = () => {
   );
 };
 
-export default ReporteAgrupadoPorLaboratorio;
+export default Reporte10;

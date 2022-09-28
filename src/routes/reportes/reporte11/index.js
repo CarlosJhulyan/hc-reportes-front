@@ -2,7 +2,7 @@ import React from 'react';
 import Cuerpo from './cuerpo';
 import { Card } from 'antd';
 
-const Reporte7 = () => {
+const Reporte11 = () => {
   return (
     <Card
       title={
@@ -23,7 +23,7 @@ const Reporte7 = () => {
               paddingTop: '20px'
             }}
           >
-            Reporte de otras especialidades
+            Reporte de reservas de especialidades
           </div>
           <div
             style={{
@@ -42,4 +42,4 @@ const Reporte7 = () => {
   );
 };
 
-export default Reporte7;
+export default Reporte11;

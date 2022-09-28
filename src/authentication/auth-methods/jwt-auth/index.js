@@ -34,8 +34,6 @@ export const useProvideAuth = () => {
 			.then(({ data }) => {
 				if (data.success) {
 					fetchSuccessReports();
-          data.modulos.push("Reporte_agrupado_laboratorio");
-          data.modulos.push("Reporte_7");
 					data.modulos.sort();
 					localStorage.setItem('token-reports', JSON.stringify(data));
 					getAuthReports(data);

@@ -81,9 +81,9 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
               </Link>
             </Menu.Item>
           )}
-          {tokenReports.modulos.some(x => x === 'Reporte_agrupado_laboratorio' ) && (
-            <Menu.Item key="reportes/agrupado-por-laboratorio">
-              <Link to="/reportes/agrupado-por-laboratorio">
+          {tokenReports.modulos.some(x => x === 'Reporte_9' ) && (
+            <Menu.Item key="reportes/reporte9">
+              <Link to="/reportes/reporte9">
                 <i className="icon">
                   <TbReportAnalytics />
                 </i>
@@ -91,13 +91,23 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
               </Link>
             </Menu.Item>
           )}
-          {tokenReports.modulos.some(x => x === 'Reporte_7' ) && (
-            <Menu.Item key="reportes/reporte7">
-              <Link to="/reportes/reporte7">
+          {tokenReports.modulos.some(x => x === 'Reporte_10' ) && (
+            <Menu.Item key="reportes/reporte10">
+              <Link to="/reportes/reporte10">
                 <i className="icon">
                   <TbReportAnalytics />
                 </i>
                 <span>Reporte de otras especialidades</span>
+              </Link>
+            </Menu.Item>
+          )}
+          {tokenReports.modulos.some(x => x === 'Reporte_11' ) && (
+            <Menu.Item key="reportes/reporte11">
+              <Link to="/reportes/reporte11">
+                <i className="icon">
+                  <TbReportAnalytics />
+                </i>
+                <span>Reporte de reservas de especialidades</span>
               </Link>
             </Menu.Item>
           )}
