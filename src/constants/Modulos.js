@@ -72,5 +72,13 @@ export const Modulos = [
     descripcion: "Reporte agrupado por laboratorio",
     icono: "icon-hotel-booking",
     subMenu: false,
+  },
+  {
+    key: "7",
+    modulo: "Reporte_7",
+    ruta: "reporte7",
+    descripcion: "Reporte de otras especialidades",
+    icono: "icon-hotel-booking",
+    subMenu: false,
   }
 ];

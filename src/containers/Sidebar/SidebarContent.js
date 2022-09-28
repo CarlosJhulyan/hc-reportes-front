@@ -91,6 +91,16 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
               </Link>
             </Menu.Item>
           )}
+          {tokenReports.modulos.some(x => x === 'Reporte_7' ) && (
+            <Menu.Item key="reportes/reporte7">
+              <Link to="/reportes/reporte7">
+                <i className="icon">
+                  <TbReportAnalytics />
+                </i>
+                <span>Reporte de otras especialidades</span>
+              </Link>
+            </Menu.Item>
+          )}
 				</>
 			);
 		}
